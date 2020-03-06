@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
 set(CMAKE_LEGACY_CYGWIN_WIN32 0)
 
 # set the project name
-project(Test VERSION 1.0)
+project(Tutorial VERSION 1.0)
 
 # specify the C++ standard
 set(CMAKE_CXX_STANDARD 11)
@@ -13,7 +13,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 add_subdirectory(TestCore)
 
 # add the executable
-add_executable(test main.cpp)
-target_link_libraries(test TestCore)
+add_executable(tutorial main.cpp)
+target_link_libraries(tutorial TestCore)
 
 # install(TARGETS test DESTINATION /some/full/path)
