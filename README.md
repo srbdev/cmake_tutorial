@@ -20,7 +20,7 @@ $ ./tutorial
 test!
 ```
 
-## Getting started on Mac
+## Getting started on macOS
 
 ## Getting started on Windows
 
