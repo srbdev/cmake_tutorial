@@ -22,6 +22,31 @@ test!
 
 ## Getting started on macOS
 
+### Prerequisites
+You will need to install Xcode and the necessary developer tools.
+
+```bash
+$ brew install cmake
+```
+
+### Starting the project
+
+```bash
+$ git clone git@github.com:srbdev/cmake_tutorial.git
+$ cd cmake_tutorial
+$ mkdir build
+$ cd build
+$ cmake -G Xcode ..
+$ open Tutorial.xcodeproj
+```
+
+Select the `ALL_BUILD` and `My Mac` target and click on the play button. 
+
+```bash
+$ ./Debug/tutorial
+test!
+```
+
 ## Getting started on Windows
 
 ### Prerequisites
